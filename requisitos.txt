@@ -1,0 +1,11 @@
+DOCUMENTO DE ENGENHARIA DE SOFTWARE - MEDCONNECT
+
+[REGRAS DE NEGÓCIO - RN]
+- RN01: Um paciente não pode agendar duas consultas no mesmo horário.
+- RN02: O acesso ao prontuário é restrito apenas ao médico responsável e ao paciente.
+- RN03: Cancelamentos devem ser feitos com no mínimo 12h de antecedência.
+
+[ARTEFATOS]
+- DFD Nível 0: Representando o fluxo externo de dados.
+- Diagrama de Classe: Representando a estrutura estática do sistema.
+- Testes Unitários: Foco na validação de CPF e horários disponíveis.

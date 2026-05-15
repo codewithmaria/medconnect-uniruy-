@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedConnect - Protótipo V1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema MedConnect</h1>
+        <p>UniRuy Wyden - Engenharia de Software</p>
+    </header>
+
+    <main class="main-card">
+        <h2>Agendamento de Consulta (RF02)</h2>
+        <form id="medForm">
+            <div class="input-group">
+                <label for="paciente">Nome do Paciente:</label>
+                <input type="text" id="paciente" class="form-input" placeholder="Ex: Maria Eduarda" required>
+            </div>
+
+            <div class="input-group">
+                <label for="medico">Médico / Especialidade:</label>
+                <select id="medico" class="form-input">
+                    <option value="dr_silva">Dr. Silva - Cardiologia</option>
+                    <option value="dra_maria">Dra. Maria - Pediatria</option>
+                    <option value="dr_claudio">Dr. Claudio - Ortopedia</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="data">Data da Consulta:</label>
+                <input type="date" id="data" class="form-input" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Confirmar Agendamento</button>
+        </form>
+        <div id="mensagemSucesso" class="hidden">
+            ✅ Agendamento realizado com sucesso!
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
