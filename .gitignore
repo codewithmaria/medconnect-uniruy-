@@ -2,5 +2,5 @@ git init
 git add .
 git commit -m "feat: setup completo do projeto medconnect"
 git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/medconnect-uniruy.git
+git remote add origin https://github.com/codewithmaria/medconnect-uniruy-
 git push -u origin main
